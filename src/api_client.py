@@ -1,6 +1,11 @@
 import requests
+import os
+from dotenv import load_dotenv
 
-API_URL = "http://127.0.0.1:8000/upload_resume/"
+load_dotenv()
+
+API_URL = os.getenv("API_URL", "http://127.0.0.1:8000/upload_resume/")
+
 
 def send_resume(file):
     "Send resume to FastAPI backend and return job matches"
