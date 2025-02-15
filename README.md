@@ -55,9 +55,9 @@ This launches the frontend where users can upload their resumes.
 
 ## 🛠 API Endpoints
 
-| **Method** | **Endpoint**          | **Description**                          |   |   |
-|------------|-----------------------|------------------------------------------|---|---|
-| ```POST``` | ```/upload_resume/``` | Uploads a resume and returns job matches |   |   |
+| **Method** | **Endpoint**          | **Description**                          |
+|------------|-----------------------|------------------------------------------|
+| ```POST``` | ```/upload_resume/``` | Uploads a resume and returns job matches |
 
 
 
