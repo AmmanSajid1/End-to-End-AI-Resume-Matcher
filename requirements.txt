@@ -1,0 +1,18 @@
+pymongo
+fastapi
+uvicorn
+openai
+pandas
+numpy
+sentence-transformers
+faiss-cpu
+scikit-learn
+streamlit
+notebook
+ipykernel
+requests
+nltk
+pymupdf
+python-dotenv
+python-multipart
+#-e .
