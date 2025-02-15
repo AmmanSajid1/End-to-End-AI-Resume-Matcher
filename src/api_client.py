@@ -10,7 +10,7 @@ API_URL = os.getenv("API_URL", "http://127.0.0.1:8000/upload_resume/")
 def send_resume(file):
     "Send resume to FastAPI backend and return job matches"
     files = {"resume": file}
-    response = requests.post(API_URL, files=files)
+    response = requests.post(API_URL.strip(), files=files)
 
     if response.status_code == 200:
         return response.json()
